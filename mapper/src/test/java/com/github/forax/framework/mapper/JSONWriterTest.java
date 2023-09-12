@@ -33,7 +33,7 @@ public class JSONWriterTest {
       );
     }
   }  // end of Q1
-/*
+
 
   public static class Car {
     private final String owner;
@@ -138,7 +138,7 @@ public class JSONWriterTest {
     }
   }
 
-
+/*
   @Nested
   public class Q5 {
     @Test @Tag("Q5")
@@ -176,7 +176,7 @@ public class JSONWriterTest {
     }
 
   } // end of Q5
-
+*/
   @Nested
   public class Q6 {
     @Test @Tag("Q6")
@@ -192,7 +192,7 @@ public class JSONWriterTest {
 
   } // end of Q6
 
-
+/*
   public static class AddressInfo {
     private boolean international;
 
