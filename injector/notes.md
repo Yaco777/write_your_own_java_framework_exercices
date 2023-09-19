@@ -22,7 +22,8 @@ alors que or else get n'appel le supplier que si la condition est fausse
 
 ## Résumé
 
-L'injection va vérifier qu'on a un seul constructeur avec @Inject, cela va vérifier le type de tous les arguments
+L'injection va vérifier qu'on a un seul constructeur avec @Inject, cela va vérifier le type de tous les arguments et créer une instance à partir de ce constructeur.
+
 Après avoir créé l'instance, on va appeler tous les setters qui possèdent un @Inject
 
 
