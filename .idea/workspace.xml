@@ -4,53 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="74bd28e4-ede9-4bbb-a92f-dae249a45c06" name="Changes" comment="end of TP3">
-      <change afterPath="$PROJECT_DIR$/orm/modifications.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/orm/rapport.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/COMPANION.md" beforeDir="false" afterPath="$PROJECT_DIR$/COMPANION.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/JDBC.md" beforeDir="false" afterPath="$PROJECT_DIR$/JDBC.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/LICENSE" beforeDir="false" afterPath="$PROJECT_DIR$/LICENSE" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injector/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/injector/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injector/README2.md" beforeDir="false" afterPath="$PROJECT_DIR$/injector/README2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injector/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/injector/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injector/src/main/java/com/github/forax/framework/injector/Inject.java" beforeDir="false" afterPath="$PROJECT_DIR$/injector/src/main/java/com/github/forax/framework/injector/Inject.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injector/src/main/java/com/github/forax/framework/injector/InjectorRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/injector/src/main/java/com/github/forax/framework/injector/InjectorRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injector/src/main/java/com/github/forax/framework/injector/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/injector/src/main/java/com/github/forax/framework/injector/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injector/src/test/java/com/github/forax/framework/injector/AnnotationScannerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/injector/src/test/java/com/github/forax/framework/injector/AnnotationScannerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/injector/src/test/java/com/github/forax/framework/injector/InjectorRegistryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/injector/src/test/java/com/github/forax/framework/injector/InjectorRegistryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interceptor/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/interceptor/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interceptor/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/interceptor/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interceptor/src/main/java/org/github/forax/framework/interceptor/Interceptor.java" beforeDir="false" afterPath="$PROJECT_DIR$/interceptor/src/main/java/org/github/forax/framework/interceptor/Interceptor.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interceptor/src/main/java/org/github/forax/framework/interceptor/InterceptorRegistry.java" beforeDir="false" afterPath="$PROJECT_DIR$/interceptor/src/main/java/org/github/forax/framework/interceptor/InterceptorRegistry.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interceptor/src/main/java/org/github/forax/framework/interceptor/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/interceptor/src/main/java/org/github/forax/framework/interceptor/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interceptor/src/test/java/org/github/forax/framework/interceptor/InterceptorRegistryTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/interceptor/src/test/java/org/github/forax/framework/interceptor/InterceptorRegistryTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/README2.md" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/README2.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/JSONProperty.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/JSONProperty.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/JSONReader.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/JSONReader.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/JSONWriter.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/JSONWriter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/ToyJSONParser.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/ToyJSONParser.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/main/java/com/github/forax/framework/mapper/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/test/java/com/github/forax/framework/mapper/JSONWriterTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/test/java/com/github/forax/framework/mapper/JSONWriterTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mapper/src/test/java/com/github/forax/framework/mapper/ToyJSONParserTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/mapper/src/test/java/com/github/forax/framework/mapper/ToyJSONParserTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/orm/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/orm/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/GeneratedValue.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/GeneratedValue.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Id.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Id.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/ORM.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/ORM.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Query.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Query.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Repository.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Repository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Table.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Table.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/main/java/com/github/forax/framework/orm/Utils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/orm/src/test/java/com/github/forax/framework/orm/ORMTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/orm/src/test/java/com/github/forax/framework/orm/ORMTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-    </list>
+    <list default="true" id="74bd28e4-ede9-4bbb-a92f-dae249a45c06" name="Changes" comment="add q7 and 8 for ORM" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,7 +45,7 @@
     "full.screen.before.presentation.mode": "false",
     "git-widget-placeholder": "master",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/33695/OneDrive/Documents/ESIPE/info2/JavaInside/TP4/write_your_own_java_framework_exercices",
+    "last_opened_file_path": "C:/Users/33695/OneDrive/Documents/ESIPE/info2/JavaInside/TP4/write_your_own_java_framework_exercices/orm",
     "node.js.detected.package.eslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
@@ -221,7 +175,7 @@
       <updated>1695717905398</updated>
       <workItem from="1695978103703" duration="47000" />
       <workItem from="1696921240542" duration="11391000" />
-      <workItem from="1697356673462" duration="2312000" />
+      <workItem from="1697356673462" duration="2618000" />
     </task>
     <task id="LOCAL-00001" summary="try commit">
       <created>1695718418059</created>
@@ -237,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1695722997022</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="add q7 and 8 for ORM">
+      <option name="closed" value="true" />
+      <created>1697359110036</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1697359110036</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -256,7 +218,6 @@
   </component>
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
-    <MESSAGE value="add support of Github action" />
     <MESSAGE value="update IDEA files" />
     <MESSAGE value="add maven cache" />
     <MESSAGE value="remove cache from github action" />
@@ -281,6 +242,7 @@
     <MESSAGE value="update to Java 21" />
     <MESSAGE value="try commit" />
     <MESSAGE value="end of TP3" />
-    <option name="LAST_COMMIT_MESSAGE" value="end of TP3" />
+    <MESSAGE value="add q7 and 8 for ORM" />
+    <option name="LAST_COMMIT_MESSAGE" value="add q7 and 8 for ORM" />
   </component>
 </project>
