@@ -27,7 +27,7 @@ import static org.junit.jupiter.api.Assertions.assertTrue;
 
 @SuppressWarnings("static-method")
 public class ORMTest {
-  /*
+
   @Nested
   public class Q1 {
     @Test @Tag("Q1")
@@ -433,6 +433,7 @@ public class ORMTest {
     }
   }
 
+
   @Nested
   public class Q5 {
 
@@ -654,7 +655,7 @@ public class ORMTest {
       assertThrows(NullPointerException.class, () -> ORM.createRepository(null));
     }
   }
-
+  
   @Nested
   public class Q7 {
 
@@ -789,7 +790,7 @@ public class ORMTest {
         var connection = ORM.currentConnection();
         var beanInfo = Utils.beanInfo(Person.class);
         var bean = new Person(1L, "Ana");
-        ORM.save(connection, "PERSON", beanInfo, bean, null);
+        ORM.save(ORM.currentConnection(), "PERSON", beanInfo, bean);
         var all = repository.findAll();
         assertEquals(List.of(new Person(1L, "Ana")), all);
       });
@@ -849,7 +850,7 @@ public class ORMTest {
       this.id = id;
     }
   }
-
+  /*
   @Nested
   class Q9 {
 
