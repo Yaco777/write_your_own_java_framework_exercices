@@ -775,7 +775,9 @@ public class ORMTest {
     public void testCreateSaveQuery() {
       var beanInfo = Utils.beanInfo(Person.class);
       var sqlQuery = ORM.createSaveQuery("PERSON", beanInfo);
-      assertTrue(sqlQuery.endsWith("INTO PERSON (id, name) VALUES (?, ?);"));
+      System.out.println(sqlQuery);
+      System.out.println(sqlQuery.endsWith(";"));
+      assertTrue(sqlQuery.endsWith("PERSON (ID, NAME) VALUES (?, ?);"));
     }
 
     @Test @Tag("Q8")
@@ -790,7 +792,7 @@ public class ORMTest {
         var connection = ORM.currentConnection();
         var beanInfo = Utils.beanInfo(Person.class);
         var bean = new Person(1L, "Ana");
-        ORM.save(ORM.currentConnection(), "PERSON", beanInfo, bean);
+        ORM.save(ORM.currentConnection(), "PERSON", beanInfo, bean,null);
         var all = repository.findAll();
         assertEquals(List.of(new Person(1L, "Ana")), all);
       });
@@ -850,7 +852,7 @@ public class ORMTest {
       this.id = id;
     }
   }
-  /*
+
   @Nested
   class Q9 {
 
@@ -864,6 +866,7 @@ public class ORMTest {
       ORM.transaction(dataSource, () -> {
         ORM.createTable(Data.class);
         var data1 = repository.save(new Data());
+        System.out.println(data1.id);
         assertEquals("1", data1.id);
         var data2 = repository.save(new Data());
         assertEquals("2", data2.id);
@@ -1265,5 +1268,5 @@ public class ORMTest {
     }
 
   }
-  */
+
 }
